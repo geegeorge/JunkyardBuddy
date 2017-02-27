@@ -1,0 +1,27 @@
+.navbar-fixed, .page-footer{
+  background-image: url("images/junkyard1.jpg");
+  opacity: .7;
+  height: 150px
+
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+  /*background-image: url("images/junkyard1.jpg");*/
+  width: 100%;
+text-align: center;
+    flex: 1 0 auto;
+  }
+footer{
+  width: 100%;
+}
+.opening{
+  font-size: 20px;
+}
+.title{
+  font-size: 60px;
+}
